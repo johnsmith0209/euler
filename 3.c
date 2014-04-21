@@ -4,7 +4,7 @@
 int isPrime(unsigned long long num){
 	unsigned long long mid = num / 2; 
 
-	for(unsigned long long i = 2;i < mid ; i++){
+	for(unsigned long long i = 2;i <= mid ; i++){
 		if( num % i == 0){
 			return 0;
 		}
